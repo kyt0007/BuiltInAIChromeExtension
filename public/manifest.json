@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "TransLingo",
+  "description": "Translation and Note taking chtbot",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": ["activeTab", "scripting", "aiLanguageModelOriginTrial", "tabs", "storage"],
+  "trial_tokens": ["AucckKKw/ect/Ar1/J66pPn11FtJgQdXHNNGUOPGcO3zpztCIy3Js6z9v/f090NGqbiA2k1smpWr/AFP66NhMAEAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vYmpobG9rZ29tZ2RpbGFsZWdvY2NpaG9qbWNqa2hkZGEiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
