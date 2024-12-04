@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 
 function LanguageSelector({ selectedLanguage, onLanguageChange }) {
@@ -22,7 +22,7 @@ function LanguageSelector({ selectedLanguage, onLanguageChange }) {
         { code: 'tr', label: 'Turkish' },
         { code: 'vi', label: 'Vietnamese' },
         { code: 'zh', label: 'Chinese (Simplified)' },
-        { code: 'zh-TW', label: 'Chinese (Traditional)' },
+        { code: 'zh-Hant', label: 'Chinese (Traditional)' },
     ];
 
     const handleLanguageChange = (event) => {
